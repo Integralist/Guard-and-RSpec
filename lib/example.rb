@@ -1,5 +1,3 @@
-$: << File.dirname(__FILE__)
-
 class RSpecGreeter
   attr_accessor :test
 
