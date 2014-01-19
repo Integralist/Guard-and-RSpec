@@ -7,7 +7,8 @@ class RSpecGreeter
 
   def greet
     binding.pry
-    @instance_property = "I'm an instance property"
+    pubs
+    privs
     "Hello RSpec!"
   end
 
